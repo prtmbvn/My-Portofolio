@@ -107,7 +107,7 @@ export default function Home() {
                 />
                 <div className="mt-10 ">
                   <a
-                    href="https://drive.google.com/file/d/1DnZfgFcCNYu-Fl38mvp9cpRBlrOAWrxh/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1TUawyQx-ySuSvtBvGghwaT5xQNdimDSb/view?usp=sharing"
                     role="button"
                     aria-label="Go to What I do section"
                     className="group relative inline-flex items-center justify-center gap-2
