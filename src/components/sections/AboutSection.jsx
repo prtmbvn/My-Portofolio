@@ -14,7 +14,18 @@ export default function AboutSection() {
     { id: 'education.json', icon: FileJson, color: 'text-amber-500 dark:text-yellow-400' },
   ]
 
-  const skills = ['React', 'Next.js', 'JavaScript','TypeScripst', 'PHP', 'Tailwind', 'SQL','PorstgeSQL','LARAVEL','PYTHON']
+  const skills = [
+    'React',
+    'Next.js',
+    'JavaScript',
+    'TypeScripst',
+    'PHP',
+    'Tailwind',
+    'SQL',
+    'PorstgeSQL',
+    'LARAVEL',
+    'PYTHON',
+  ]
 
   return (
     <section
@@ -73,7 +84,7 @@ export default function AboutSection() {
                 <img
                   src="/asset/Profile.png"
                   alt="Pratama Bevan"
-                  className="w-fit h-fit object-fill grayscale group-hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover object-top grayscale group-hover:grayscale-0 transition-all duration-500 "
                 />
                 <div className="absolute bottom-3 right-3 flex items-center gap-2 bg-white/90 dark:bg-gray-900/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 px-3 py-1.5 rounded-full shadow-sm">
                   <span className="relative flex h-2.5 w-2.5">
@@ -230,8 +241,6 @@ export default function AboutSection() {
                   </div>
                 </div>
               )}
-
-           
             </div>
           </div>
         </div>

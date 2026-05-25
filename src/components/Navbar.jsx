@@ -170,7 +170,12 @@ export default function WorkspaceNavbar() {
           >
             <Github size={20} />
           </a>
-          <button className="px-4 py-1.5 bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-500 text-white rounded-md transition-colors flex items-center gap-2 font-sans font-medium text-sm">
+          <button
+            onClick={() => {
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+            }}
+            className="px-4 py-1.5 bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-500 text-white rounded-md transition-colors flex items-center gap-2 font-sans font-medium text-sm"
+          >
             <Terminal size={16} />
             <span>Hire Me</span>
           </button>
