@@ -16,7 +16,7 @@ export const projectsData = [
   {
     id: 'itenas-profile',
     title: 'ITENAS Profile Website',
-    image: '/asset/itenas.png',
+    image: '/asset/Itenas.png',
     tech: ['Laravel', 'Tailwind', 'Blade', 'PHP', 'MySQL', 'REST API'],
     desc: 'A high-performance institutional website equipped with a custom CMS, dynamic multi-role content workflows, optimized MySQL query indexing, and extensive SEO optimization.',
     live: 'https://www.itenas.ac.id/',
